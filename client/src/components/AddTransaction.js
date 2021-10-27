@@ -1,5 +1,5 @@
 
-import React,{useState,useContext} from "react"
+import React,{useState,useContext,useEffect} from "react"
 import { GlobalContext } from '../context/GlobalState'
 import { Transaction } from "./Transaction";
 const AddTransaction = ({transaction}) => {
